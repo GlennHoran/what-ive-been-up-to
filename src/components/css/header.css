@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: aliceblue;
+}
+
+.nav-link-container {
+display: flex;
+justify-content: left;
+    padding-left: 2em;
+}
+
+.navlink{
+padding: 0.5em;
+}
+
+.social-media-link-container{
+    display: flex;
+    justify-content: right;
+padding-right: 2em;
+}
+
+.social-media-link{
+padding: 0.5em;
+}

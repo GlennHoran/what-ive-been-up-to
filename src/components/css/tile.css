@@ -1,0 +1,22 @@
+.tile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 12em;
+}
+
+.tile-title {
+
+}
+
+.tile-text{
+
+}
+
+.tile-image {
+   max-width: 100%;
+}
+
+img {
+   max-width: 10em;
+}
