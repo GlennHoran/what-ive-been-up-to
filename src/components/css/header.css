@@ -1,7 +1,11 @@
 .header-container {
+    background: #255D83;
+}
+
+.header-nav{
     display: flex;
     justify-content: space-between;
-    background: aliceblue;
+    color: white;
 }
 
 .nav-link-container {
@@ -22,4 +26,20 @@ padding-right: 2em;
 
 .social-media-link{
 padding: 0.5em;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background: #255D83;
+}
+
+.title-image{
+    max-width: 10em;
+}
+.title-image img{
+    max-width: 10em;
+    max-height: 10em;
 }

@@ -1,7 +1,9 @@
 .app {
-    background: aliceblue;
+    background: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.body{
-    font-family: 'Open Sans', sans-serif;
+html, body {
+    margin:0;
+    padding:0;
 }

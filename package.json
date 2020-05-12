@@ -5,9 +5,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "deploy-react" : "aws s3 sync dist/ s3://ghoran-test-deploy-bucket --acl public-read",
-    "deploy-serverless" : "aws s3 sync dist/ s3://ghoran-test-deploy-bucket --acl public-read"
-
+    "deploy": "aws s3 sync dist/ s3://ghoran-test-deploy-bucket --acl public-read"
   },
   "license": "MIT",
   "dependencies": {

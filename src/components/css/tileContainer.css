@@ -1,0 +1,10 @@
+.tile-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0em 10em 0em 10em
+}
+
+.tile-box{
+    padding: 0.5em;
+}
