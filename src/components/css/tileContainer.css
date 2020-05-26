@@ -1,6 +1,6 @@
 .tile-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0em 10em 0em 10em
 }

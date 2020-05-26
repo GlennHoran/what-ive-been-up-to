@@ -32,6 +32,7 @@ padding: 0.5em;
     display: flex;
     justify-content: center;
     font-family: 'Press Start 2P', cursive;
+    align-items: center;
     color: white;
     background: #255D83;
 }
@@ -42,4 +43,5 @@ padding: 0.5em;
 .title-image img{
     max-width: 10em;
     max-height: 10em;
+    object-fit: contain;
 }

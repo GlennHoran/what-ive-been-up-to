@@ -1,4 +1,14 @@
 .footer-container {
     display: flex;
-    justify-content: center;
+    background-color: #feaf87;
+    justify-content: space-between;
+}
+
+.footer-left{
+    padding-left: 2em;
+    height: 5em;
+}
+
+.footer-right{
+    padding-right: 2em;
 }
