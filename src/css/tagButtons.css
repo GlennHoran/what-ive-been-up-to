@@ -4,13 +4,6 @@
     flex-direction: row;
 }
 
-.tag-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 .tag-button{
     display: flex;
     flex-direction: row;
