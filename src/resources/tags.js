@@ -1,4 +1,6 @@
 const tags =[
+    {label: "All",
+        colour: "black"},
     {label: "Coding",
         colour: "#255D83"},
     {label: "3D Printing",

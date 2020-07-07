@@ -7,9 +7,6 @@ import pixel from "/src/resources/images/pixelAvatar.png"
 
 export function Header(props) {
     return <div className="header-container">
-        <div className= "header-nav">
-            <NavLinkContainer/>
-        </div>
         <div className="hero-title">
             <h1>
             What's Glenn been up to?

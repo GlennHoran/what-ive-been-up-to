@@ -6,7 +6,9 @@ export default function TagButton(props) {
     return <div className="tag-button">
         <button className="tag-button-button">
             <Circle tag = {props.tag}/>
+            <div className = "button-text">
                 {props.tag}
+            </div>
             </button>
     </div>
 }
