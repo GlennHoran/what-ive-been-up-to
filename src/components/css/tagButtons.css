@@ -1,0 +1,15 @@
+.tag-button-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.tag-button{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em
+}
+
+.tag-button-button{
+    padding: 0.5em;
+}

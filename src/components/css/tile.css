@@ -59,3 +59,14 @@ img {
    height: 12em;
    object-fit: cover;
 }
+
+.tile-tags{
+    width: 100%;
+}
+
+.tag-visual {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5em;
+
+}

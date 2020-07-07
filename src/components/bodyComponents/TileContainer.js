@@ -1,7 +1,9 @@
 import React from "react";
 import Tile from "./Tile";
+import TagButtonContainer from "./TagButtonContainer"
+import "../css/body.css"
+
 import "../css/tileContainer.css"
-import floki from "../../images/sampleImages/Floki.jpeg"
 import {getBlogPosts} from "../../api/blogPostApi";
 
 export class TileContainer extends React.Component {
@@ -18,6 +20,8 @@ export class TileContainer extends React.Component {
     render(){
         const imageBucketAddress = "https://s3.amazonaws.com/glenn-horan-test-image-component-bucket/"
         return (
+            <div className="body-container">
+            <TagButtonContainer/>
             <div className="tile-container">
                 {this.state.blogPosts.map(
                     blogPost => {
@@ -29,12 +33,13 @@ export class TileContainer extends React.Component {
                                     text = {blogPost.text}
                                     subheading = {blogPost.subheading}
                                     featured = {blogPost.featured}
+                                    tags = {blogPost.tags}
                               />
                           </div>
-
                       )
                     }
                 )}
+            </div>
             </div>
             )
 
