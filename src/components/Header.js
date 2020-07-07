@@ -1,5 +1,5 @@
 import React from "react";
-import './css/header.css'
+import '../css/header.css'
 import NavLinkContainer from "./headerComponents/NavLinkContainer";
 import SocialMediaLinkContainer from "./headerComponents/SocialMediaLinkContainer";
 import pixel from "/src/resources/images/pixelAvatar.png"

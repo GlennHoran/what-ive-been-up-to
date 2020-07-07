@@ -1,0 +1,20 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #feaf87;
+}
+
+.social-media-link-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-quote-container {
+    padding: 0.25em;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icon{
+    padding: 1em 1em 0em 1em;
+}

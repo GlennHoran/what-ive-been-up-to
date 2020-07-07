@@ -1,6 +1,6 @@
 import React from 'react'
 import TagVisual from './TagVisual'
-import '../css/tile.css'
+import '../../css/tile.css'
 
 export default function Tile (props) {
     console.log(props)

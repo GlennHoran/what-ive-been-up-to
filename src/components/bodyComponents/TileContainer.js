@@ -1,9 +1,9 @@
 import React from "react";
 import Tile from "./Tile";
 import TagButtonContainer from "./TagButtonContainer"
-import "../css/body.css"
+import "../../css/body.css"
 
-import "../css/tileContainer.css"
+import "../../css/tileContainer.css"
 import {getBlogPosts} from "../../api/blogPostApi";
 
 export class TileContainer extends React.Component {
